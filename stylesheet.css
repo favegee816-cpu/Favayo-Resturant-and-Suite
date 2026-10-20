@@ -1,0 +1,115 @@
+
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#333;
+    color:white;
+}
+
+header{
+    background:#111;
+    padding:10px;
+    text-align:left;
+	color:#FFD700;
+}
+
+nav a{
+    color:#FFD700;
+    text-decoration:none;
+	margin:60px;
+	width:100px;
+	height:100px;
+	text-align:center;
+}
+h2{
+	color:#ffd700;
+	text-align:center;
+	size:88px;
+}
+
+.hero{
+    height:400px;
+    background:
+    linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+    url("restaurant.jpg");
+    background-size:cover;
+    text-align:center;
+    padding-top:100px;
+}
+
+.hero h2{
+    font-size:45px;
+    color:#FFD700;
+}
+
+button{
+    background:#FFD700;
+    border:none;
+    padding:12px 15px;
+    border-radius:5px;
+
+}
+
+.menu, .contact{
+    padding:40px;
+    text-align:center;
+}
+
+input, textarea{
+    display:block;
+    margin:15px auto;
+    width:300px;
+    padding:12px;
+}
+
+h4{
+    text-align:center;
+    padding:20px;
+}
+
+
+.container{
+	background-color:#333;
+	display:grid;
+	gap:20px;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	align-items:start;
+	grid-template-columns:repeat(4,150px);
+	padding:20px
+}
+.row{
+	background-color:white;
+	margin:50px;
+	padding:20px;
+flex-direction: column;
+
+
+}
+.card{
+	color:#000000;
+	margin:60px;
+	background-color:white ;
+	padding:10px;
+	height:170px;
+	width:170px;
+	text-align:center;
+	display:block;
+	flex-direction: column;
+	box-sizing:border-box;
+
+
+	`
+
+}
+.container{
+	display:flex;
+}
+
+.image-container{
+	flex:1;
+align-items:left;
+}
+.text-container{
+	flex:2;
+}
