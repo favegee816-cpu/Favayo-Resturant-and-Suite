@@ -98,12 +98,6 @@ flex-direction: column;
 	flex-direction: column;
 	box-sizing:border-box;
 }
-@media(max-width:768px)
-hi {font-size:12px}
-.container{
-width:350px;
-flex-drection:column;
-}
 .container{
 	display:flex;
 }
