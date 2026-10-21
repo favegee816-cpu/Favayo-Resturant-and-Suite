@@ -95,7 +95,6 @@ flex-direction: column;
 	width:170px;
 	text-align:center;
 	display:block;
-	flex-direction: column;
 	box-sizing:border-box;
 }
 .container{
