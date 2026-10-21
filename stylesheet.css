@@ -76,7 +76,8 @@ h4{
 	justify-content:space-between;
 	align-items:start;
 	grid-template-columns:repeat(4,150px);
-	padding:20px
+	padding:20px;
+	max-width:50%
 }
 .row{
 	background-color:white;
